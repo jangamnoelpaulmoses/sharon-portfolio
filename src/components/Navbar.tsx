@@ -25,7 +25,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
+        <nav className={`navbar ${scrolled ? "scrolled" : ""} ${mobileOpen ? "mobile-open" : ""}`}>
             <div className="navbar-inner">
                 <a href="#" className="navbar-logo">
                     SM<span style={{ opacity: 0.6 }}>.</span>

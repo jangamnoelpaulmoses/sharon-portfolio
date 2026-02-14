@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useRef, useEffect } from "react";
 import LiquidButton from "./LiquidButton";
 
 export default function Hero() {

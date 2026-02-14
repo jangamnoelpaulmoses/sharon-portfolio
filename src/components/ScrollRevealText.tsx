@@ -49,10 +49,11 @@ export default function ScrollRevealText({
             );
         });
 
+        const container = containerRef.current;
         return () => {
             tl.kill();
             ScrollTrigger.getAll().forEach((st) => {
-                if (st.trigger === containerRef.current) st.kill();
+                if (st.trigger === container) st.kill();
             });
         };
     }, [text, highlightColor, dimColor]);

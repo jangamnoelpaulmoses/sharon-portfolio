@@ -44,12 +44,13 @@ export default function ScrollSection({
             });
         });
 
+        const section = sectionRef.current;
         return () => {
             ScrollTrigger.getAll().forEach((st) => {
                 if (
                     st.trigger &&
-                    sectionRef.current &&
-                    sectionRef.current.contains(st.trigger)
+                    section &&
+                    section.contains(st.trigger)
                 ) {
                     st.kill();
                 }

@@ -11,7 +11,7 @@ export default function LiquidButton({ children, href, className, ...props }: Li
     const Component = href ? "a" : "button";
 
     return (
-        // @ts-ignore - dynamic component props
+        // @ts-expect-error - dynamic component props
         <Component
             href={href}
             className={`liquid-button ${className || ""}`}

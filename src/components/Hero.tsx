@@ -23,7 +23,7 @@ export default function Hero() {
                     </p>
 
                     <p className="hero-description">
-                        Seasoned Software Engineer with 6.5+ years building systems,
+                        Senior Software Engineer with 6.5+ years building systems,
                         cloud-native services, and intelligent software products across
                         Apple, Samsung &amp; RadiSys.
                     </p>

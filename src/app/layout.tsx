@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Sharon Moses Jangam | Software Engineer",
   description:
-    "Seasoned Software Engineer with 6.5+ years of building systems, cloud-native services, and intelligent software products across Apple, Samsung, RadiSys.",
+    "Senior Software Engineer with 6.5+ years of building systems, cloud-native services, and intelligent software products across Apple, Samsung, RadiSys.",
   keywords: [
     "Software Engineer",
     "Apple",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sharon Moses Jangam | Software Engineer",
     description:
-      "Seasoned Software Engineer with 6.5+ years at Apple, Samsung, and RadiSys.",
+      "Senior Software Engineer with 6.5+ years at Apple, Samsung, and RadiSys.",
     type: "website",
   },
 };
